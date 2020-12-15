@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 20rem);
+  grid-template-rows: repeat(2, 20rem);
+  gap: 1rem;
+}
+
+.content img {
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}

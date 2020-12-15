@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom SVG filters</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <svg>
+      <filter
+        id="cherry-icecream"
+        x="-10%"
+        y="-10%"
+        width="120%"
+        height="120%"
+        filterUnits="objectBoundingBox"
+        primitiveUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feColorMatrix
+          type="matrix"
+          values="1 0 0 0 0
+							1 0 0 0 0
+							1 0 0 0 0
+							0 0 0 1 0"
+          in="SourceGraphic"
+          result="colormatrix"
+        />
+        <feComponentTransfer in="colormatrix" result="componentTransfer">
+          <feFuncR type="table" tableValues="0.2 1" />
+          <feFuncG type="table" tableValues="0.04 0.69" />
+          <feFuncB type="table" tableValues="0.87 0.95" />
+          <feFuncA type="table" tableValues="0 1" />
+        </feComponentTransfer>
+        <feBlend
+          mode="normal"
+          in="componentTransfer"
+          in2="SourceGraphic"
+          result="blend"
+        />
+      </filter>
+    </svg>
+    <main class="container">
+      <article class="content">
+        <img
+          src="https://source.unsplash.com/iFgRcqHznqg/1200x1800"
+          alt="Photo by Joseph Gonzalez"
+          width="3569"
+          height="5354"
+          loading="lazy"
+        />
+      </article>
+    </main>
+  </body>
+</html>

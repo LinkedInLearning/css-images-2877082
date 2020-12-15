@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.content {
+}

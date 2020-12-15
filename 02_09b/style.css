@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 60vw;
+  max-width: 35rem;
+  overflow: hidden;
+  border: 1rem solid pink;
+}
+
+.ratio-box {
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+  position: relative;
+}
+
+.content img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  object-fit: cover;
+}
+
+.content img {
+  /* Only works in Firefox */
+  clip-path: path(
+    "M158.73,292.46A85.5,85.5,0,0,1,279.65,171.54l.35.36.35-.36A85.5,85.5,0,0,1,401.27,292.46L280,413.73Z"
+  );
+}

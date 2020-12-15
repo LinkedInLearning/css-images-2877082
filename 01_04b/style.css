@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 40vw;
+  border: 3px solid black;
+  border-radius: 1rem;
+  /* overflow: hidden; */
+}
+
+.the-image {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+
+figcaption {
+  padding: 1rem;
+}
+
+.ratio-box {
+  width: 100%;
+}

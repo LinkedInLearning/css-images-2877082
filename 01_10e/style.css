@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  height: 60vh;
+  border: 1px solid hsl(0, 0%, 75%);
+  background-image: url(https://source.unsplash.com/TFyi0QOx08c/1800x1200);
+  background-repeat: no-repeat;
+  background-position: 20% 60%;
+  /* background-origin: content-box; */
+}
+
+.content h1 {
+  padding: 2rem 3rem;
+  background: hsla(0, 0%, 0%, 0.2);
+  border: 1px solid white;
+  font-size: 2rem;
+  color: white;
+}

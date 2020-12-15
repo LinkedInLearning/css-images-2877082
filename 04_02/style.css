@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 25vw);
+  grid-template-rows: repeat(2, 25vw);
+}
+
+.image {
+  margin: 0;
+  height: 0;
+  padding-top: 25vw;
+  overflow: hidden;
+  position: relative;
+  transition: clip-path 1s;
+}
+
+.image:first-child {
+  clip-path: circle(100% at 100% 100%);
+}
+
+.image:nth-of-type(2) {
+  clip-path: circle(100% at 0% 100%);
+}
+
+.image:nth-of-type(3) {
+  clip-path: circle(100% at 100% 0%);
+}
+
+.image:nth-of-type(4) {
+  clip-path: circle(100% at 0% 0%);
+}
+
+.image:hover {
+  clip-path: circle(100% at 50% 50%);
+}
+
+img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: top;
+  box-sizing: border-box;
+}

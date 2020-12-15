@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 75vw;
+  height: 60vh;
+  border: 1rem solid pink;
+}
+
+.the-image {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}

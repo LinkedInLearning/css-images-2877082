@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 75vw;
+  max-width: 50rem;
+  background: url(https://source.unsplash.com/Y7TEMCKRIgI/1197x1800);
+  background: rebeccapurple;
+  background-size: cover;
+  background-position: center;
+}
+
+.content img {
+  mix-blend-mode: screen;
+}

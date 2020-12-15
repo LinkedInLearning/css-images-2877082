@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 60vw;
+  max-width: 35rem;
+  overflow: hidden;
+}
+
+.ratio-box {
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+  position: relative;
+}
+
+.content img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  object-fit: cover;
+}
+
+.content img {
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}

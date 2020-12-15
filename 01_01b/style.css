@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 60vw;
+  height: 60vh;
+  border: 1px solid hsl(0, 0%, 75%);
+}

@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.content {
+  display: flex;
+}
+
+.image {
+  margin: 0;
+  width: 25%;
+}
+
+.content img {
+  height: 100%;
+  object-fit: cover;
+}

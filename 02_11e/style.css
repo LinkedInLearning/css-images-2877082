@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  height: 20rem;
+  max-width: 40rem;
+}
+
+.content h1 {
+  padding: 4rem;
+  font-size: 5rem;
+  text-align: center;
+  background: url(https://source.unsplash.com/7ne3hNnojvU/1800x1200);
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
