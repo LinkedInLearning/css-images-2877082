@@ -1,10 +1,8 @@
-# COURSENAME
+# CSS: Images
+This is the repository for the LinkedIn Learning course CSS: Images. The full course is available from [LinkedIn Learning][lil-course-url].
 
-This is the repository for the LinkedIn Learning course `CSS Images`. The full course is available from [LinkedIn Learning][lil-course-url].
-
-![course-name-alt-text][lil-thumbnail-url]
-
-_See the readme file in the main branch for updated instructions and information._
+![CSS: Images][lil-thumbnail-url] 
+CSS is a toolkit for image manipulation. Whether you want to create distinctive visual effects or simply make the most of available bandwidth, the options for manipulating images in CSS will let you create reusable graphics solutions. In this course, instructor Morten Rand-Hendriksen shows you how much you can edit images in a browser using pure CSS. Morten explains the importance of proper HTML image markup and how to crop, fit, and position an image. He discusses how to use the clip-path property to create a variety of shapes. Morten shows how you can use and combine filters to edit and add effects to your image. He concludes by walking you through several practical examples of how to use what you learned, as well as some important best practices and caveats.
 
 ## Instructions
 
@@ -20,6 +18,14 @@ Most movies have a beginning and an end state folders. These are marked with the
 1. Download the practice files to any location on your computer.
 2. Open the folder corresponding to the movie you are currently watching.
 
-[0]: # "Replace these placeholder URLs with actual course URLs"
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+
+### Instructor
+
+**Morten Rand-Hendriksen**
+
+_Web Designer and Developer_
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/morten-rand-hendriksen?u=104).
+
+[lil-course-url]: https://www.linkedin.com/learning/css-images
+[lil-thumbnail-url]: https://cdn.lynda.com/course/2877082/2877082-1613059566108-16x9.jpg
